@@ -62,7 +62,8 @@ class MainActivity : AppCompatActivity() {
         doneButton.visibility = View.VISIBLE
         // 表示したテキストは見えないようにする
         view.visibility = View.GONE
+
+        // フォーカスを設定
+        editText.requestFocus()
     }
-
-
 }
