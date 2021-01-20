@@ -38,6 +38,15 @@
         android:text="@string/done"
         android:textAlignment="center" />
 
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:text="" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
