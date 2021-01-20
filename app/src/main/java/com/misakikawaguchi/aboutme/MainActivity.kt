@@ -65,5 +65,9 @@ class MainActivity : AppCompatActivity() {
 
         // フォーカスを設定
         editText.requestFocus()
+
+        // キーボードを表示する
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.showSoftInput(editText, 0)
     }
 }
